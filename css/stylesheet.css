@@ -1,0 +1,35 @@
+h1 {
+  margin-left: 150px;
+  color: grey;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+
+thead {
+  background: #0086b3;
+  color: white;
+  font-weight: normal;
+}
+
+th, td {
+  padding: 10px;
+}
+
+tr {
+  border: 1px solid #0086b3;
+}
+
+tbody > tr > td:first-child {
+  font-weight: bold;
+}
+
+td:nth-child(n+2) {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background: #e6e6e6;
+}
